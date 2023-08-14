@@ -9,8 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>5.2.x</artifactId>
+    <artifactId>spring-framework-demo-5.2.x</artifactId>
+    <packaging>pom</packaging>
+
     <description>SpringFramework 基于5.2.x 的示例</description>
+
+    <modules>
+        <module>spring-webmvc-startup-xml</module>
+        <module>spring-webmvc-startup-custom</module>
+    </modules>
 
     <properties>
         <spring.version>5.2.25.RELEASE</spring.version>
